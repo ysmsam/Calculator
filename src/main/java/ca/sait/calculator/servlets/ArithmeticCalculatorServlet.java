@@ -47,8 +47,6 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
         if((request.getParameter("firstNum")!=null && request.getParameter("secondNum")!=null) && (request.getParameter("firstNum")!="" && request.getParameter("secondNum")!="")){
             
             try{
-                String firstNumString = request.getParameter("firstNum");
-                String secondNumString = request.getParameter("secondNum");
 //                String firstNumString = request.getParameter("firstNum");
 //                String secondNumString = request.getParameter("secondNum");
 
