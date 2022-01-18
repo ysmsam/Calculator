@@ -16,7 +16,6 @@
     <body>
         <h1>Age Calculator</h1>
         <form action="age" method="post">
-            <!--label tab will bind with input, once mouse click label text, it will auto select input textbox-->
             <!--label tab will bind with input, once mouse click label text, it will auto select input textbox -->
             <label for="age">Enter your age: </label>
             <input type="text" name="age" id="age">
