@@ -15,10 +15,10 @@
         <h1>Arithmetic Calculator</h1>
         <form action="arithmetic" method="post">
             <label for="firstNum">First: </label>
-            <input type="text" name="firstNum" id="firstNum" value="">
+            <input type="text" name="firstNum" id="firstNum" value="${firstNumber}">
             <br>
             <label for="secondNum">Second: </label>
-            <input type="text" name="secondNum" id="secondNum" value="">
+            <input type="text" name="secondNum" id="secondNum" value="${secondNumber}">
             <br>
             <button type="submit" name="operation" value="a">+</button>
             <button type="submit" name="operation" value="b">-</button>
