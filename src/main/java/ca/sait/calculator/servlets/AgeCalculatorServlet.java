@@ -39,6 +39,7 @@ public class AgeCalculatorServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+//      String ageInput = request.getAttribute("age");  //work with jsp <p style="request.getParameter("age") ? > 1 "good" : "not good"">${age}</p>
         if(request.getParameter("age") !=null){
             try{
                 String ageString = request.getParameter("age");

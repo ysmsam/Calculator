@@ -22,8 +22,11 @@
             <input type="text" name="age" id="age">
             <br>
             <input type="submit" value="Age next birthday">
+<!--            <button type="submit"> submit</button> button tab can DIY, input cannot -->
         </form>
         <p>${message}</p>
+        <!--the $ sign means to tell javascript to look at name of the attribute (inside the {}) -->
+        <!--<p style="request.getParameter("age") ? > 1 "good" : "not good"">${age}</p> -->
         <a href="/Calculator/arithmetic">Arithemetic Calculator</a>
     </body>
 </html>
